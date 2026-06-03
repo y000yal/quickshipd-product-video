@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       QuickShipD Product Video — YouTube, Vimeo & Self-Hosted WooCommerce Gallery Videos, SEO Schema, Variations, Thumbnails & Play Tracking
  * Plugin URI:        https://quickshipd.com/plugins/quickshipd-product-video/
- * Description:       WooCommerce product video plugin: YouTube, Vimeo, and self-hosted gallery videos with VideoObject SEO schema, variation videos, custom thumbnails, gallery ordering, and play tracking.
+ * Description:       Add YouTube, Vimeo & self-hosted MP4/WebM videos to WooCommerce product galleries. VideoObject SEO, variations, custom thumbnails & play tracking.
  * Version:           1.0
  * Author:            quickshipd
  * Author URI:        https://quickshipd.com
