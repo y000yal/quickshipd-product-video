@@ -1,0 +1,169 @@
+﻿/**
+ * QuickShipD Product Video for WooCommerce
+ * Frontend styles
+ *
+ * @package QuickShipD_Product_Video
+ * @version 1.0.0
+ */
+
+/* Video slide wrapper inside WC gallery ------------------------------------ */
+.qspv-video-slide {
+	position: relative;
+}
+
+/* 16:9 responsive iframe/video container ----------------------------------- */
+.qspv-video-embed {
+	position: relative;
+	width: 100%;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+
+.qspv-video-embed iframe,
+.qspv-video-embed video {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+/* Placeholder thumbnail + play-button overlay ------------------------------ */
+.qspv-video-placeholder {
+	position: relative;
+	cursor: pointer;
+	display: block;
+	line-height: 0;
+	/* Ensure the placeholder always has height, even without a thumbnail image. */
+	aspect-ratio: 16 / 9;
+	background: #111;
+}
+
+.qspv-video-placeholder img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.qspv-play-btn {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: rgba(0, 0, 0, .55);
+	border: 0;
+	border-radius: 50%;
+	width: 64px;
+	height: 64px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	padding: 0;
+	transition: background .2s ease;
+}
+
+.qspv-play-btn:hover,
+.qspv-play-btn:focus-visible {
+	background: rgba(0, 0, 0, .75);
+	outline: 2px solid #fff;
+	outline-offset: 2px;
+}
+
+.qspv-play-icon {
+	display: block;
+	width: 0;
+	height: 0;
+	margin-left: 4px; /* optical centre */
+	border-style: solid;
+	border-width: 11px 0 11px 20px;
+	border-color: transparent transparent transparent #fff;
+}
+
+/* Play icon overlay on the Flexslider thumbnail strip ---------------------- */
+.flex-control-thumbs li.qspv-thumb-has-video {
+	position: relative;
+}
+
+/* Dark scrim over the entire thumbnail so it reads as "video, not photo" */
+.flex-control-thumbs li.qspv-thumb-has-video::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	background: rgba(0, 0, 0, .35);
+	pointer-events: none;
+}
+
+.qspv-thumb-play-icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 28px;
+	height: 28px;
+	background: rgba(0, 0, 0, .6);
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	pointer-events: none;
+}
+
+.qspv-thumb-play-icon::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+	margin-left: 2px; /* optical centre */
+	border-style: solid;
+	border-width: 5px 0 5px 9px;
+	border-color: transparent transparent transparent #fff;
+}
+
+/* Minimal play button style — no circle, just the triangle + shadow -------- */
+.qspv-style-minimal .qspv-play-btn {
+	background: none;
+	border: 0;
+	border-radius: 0;
+	width: auto;
+	height: auto;
+	filter: drop-shadow(0 1px 4px rgba(0, 0, 0, .7));
+	transition: filter .2s ease;
+}
+
+.qspv-style-minimal .qspv-play-btn:hover,
+.qspv-style-minimal .qspv-play-btn:focus-visible {
+	background: none;
+	outline: none;
+	filter: drop-shadow(0 1px 8px rgba(0, 0, 0, .9));
+}
+
+.qspv-style-minimal .qspv-play-icon {
+	margin-left: 0;
+	border-width: 13px 0 13px 22px;
+}
+
+/* Minimal thumbnail strip icon --------------------------------------------- */
+.qspv-thumb-has-video--minimal .qspv-thumb-play-icon {
+	background: none;
+}
+
+.qspv-thumb-has-video--minimal .qspv-thumb-play-icon::after {
+	margin-left: 1px;
+	filter: drop-shadow(0 0 2px rgba(0, 0, 0, .8));
+}
+
+/* Block gallery video thumbnail -------------------------------------------- */
+.qspv-block-video-thumb {
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.qspv-block-video-thumb img {
+	display: block;
+	width: 100%;
+	height: auto;
+}

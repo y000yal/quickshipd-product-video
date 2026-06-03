@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Other package managers (this project uses pnpm)
+package-lock.json
+yarn.lock
+
+# Build output
+release/
+*.zip
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# PHP / WordPress dev
+.phpunit.result.cache
+.phpunit.cache
+coverage/
+wp-cli.local.yml
