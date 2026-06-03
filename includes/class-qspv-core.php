@@ -5,7 +5,7 @@
  * Loads all class files and initialises each subsystem exactly once.
  *
  * @package QuickShipD_Product_Video
- * @since   1.0.0
+ * @since   1.0
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -17,7 +17,7 @@ defined( 'ABSPATH' ) || exit;
  * each subsystem its own instance so hooks are registered in a predictable
  * order.
  *
- * @since 1.0.0
+ * @since 1.0
  */
 final class QSPV_Core {
 

@@ -5,7 +5,7 @@
  * All methods are static; this class holds no state and registers no hooks.
  *
  * @package QuickShipD_Product_Video
- * @since   1.0.0
+ * @since   1.0
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -16,7 +16,7 @@ defined( 'ABSPATH' ) || exit;
  * Parses YouTube, Vimeo, and self-hosted video URLs into embed URLs and
  * thumbnail images. Handles sanitization of user-supplied URLs before storage.
  *
- * @since 1.0.0
+ * @since 1.0
  */
 class QSPV_Video {
 

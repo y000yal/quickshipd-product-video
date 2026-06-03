@@ -5,7 +5,7 @@
  * No jQuery dependency. Wrapped in an IIFE to avoid global scope pollution.
  *
  * @package QuickShipD_Product_Video
- * @version 1.0.0
+ * @version 1.0
  */
 ( function ( raw ) {
 	'use strict';

@@ -37,12 +37,19 @@ jobs:
         id: build
         run: |
           pnpm run dist
-          echo "zip_path=release/quickshipd.zip" >> $GITHUB_OUTPUT
+          ZIP_PATH="$(ls -1 release/*.zip 2>/dev/null | head -1)"
+          if [ -z "$ZIP_PATH" ] || [ ! -f "$ZIP_PATH" ]; then
+            echo "::error::No zip found in release/ after build"
+            ls -la release/ 2>/dev/null || true
+            exit 1
+          fi
+          echo "zip_path=${ZIP_PATH}" >> $GITHUB_OUTPUT
+          echo "Built ${ZIP_PATH}"
 
       - name: WordPress Plugin Deploy
         uses: 10up/action-wordpress-plugin-deploy@stable
         env:
-          SLUG: quickshipd
+          SLUG: quickshipd-product-video
           SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
           SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
 

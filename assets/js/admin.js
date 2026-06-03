@@ -3,7 +3,7 @@
  * Admin JS: settings page (tabs, AJAX save/restore) + product editor (URL badge, preview).
  *
  * @package QuickShipD_Product_Video
- * @version 1.0.0
+ * @version 1.0
  */
 ( function ( $ ) {
 	'use strict';

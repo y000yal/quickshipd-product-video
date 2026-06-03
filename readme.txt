@@ -6,7 +6,7 @@ Tested up to: 6.9
 Requires PHP: 7.4
 WC requires at least: 8.0
 WC tested up to: 10.5
-Stable tag: 1.0.1
+Stable tag: 1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -109,23 +109,22 @@ Self-hosted video files (MP4, WebM, etc.) uploaded to your own Media Library are
 == Screenshots ==
 
 1. Product page with video in the gallery alongside product images
-2. Product editor — the Product Video tab with URL input and play count
-3. WooCommerce → Product Video settings page
-4. Google search result showing a VideoObject rich snippet
+2. Product Video Settings — the Product Video playback settings
+3. Product Video Settings — features section
+4. Individual product settings.
 
 == Changelog ==
 
-= 1.0.1 =
-* Added Video Thumbnail picker for self-hosted videos
-* Added gallery position control (before featured image / after featured image / after all images)
-* Fixed playback settings not applying correctly
-* Fixed Vimeo thumbnail retrieval via oEmbed API
-* Improved variation video swap (type and thumbnail now update on variation change)
-
-= 1.0.0 =
+= 1.0  - 03/06/2026 =
 * Initial release
+* YouTube, Vimeo, and self-hosted product videos in the WooCommerce gallery
+* Video Thumbnail picker for self-hosted videos
+* Gallery position control (before featured image / after featured image / after all images)
+* VideoObject SEO schema and play tracking
+* Variation video support with thumbnail and type updates on variation change
+* Vimeo thumbnail retrieval via oEmbed API
 
 == Upgrade Notice ==
 
-= 1.0.1 =
-Fixes playback settings and adds video thumbnail picker. Recommended update for all users.
+= 1.0 =
+Initial release.

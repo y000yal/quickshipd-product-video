@@ -8,7 +8,7 @@
  * variation data filter.
  *
  * @package QuickShipD_Product_Video
- * @since   1.0.0
+ * @since   1.0
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -16,7 +16,7 @@ defined( 'ABSPATH' ) || exit;
 /**
  * Class QSPV_Product_Meta
  *
- * @since 1.0.0
+ * @since 1.0
  */
 class QSPV_Product_Meta {
 

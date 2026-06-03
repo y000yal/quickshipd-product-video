@@ -7,7 +7,7 @@
  * display video rich snippets in search results.
  *
  * @package QuickShipD_Product_Video
- * @since   1.0.0
+ * @since   1.0
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -15,7 +15,7 @@ defined( 'ABSPATH' ) || exit;
 /**
  * Class QSPV_Schema
  *
- * @since 1.0.0
+ * @since 1.0
  */
 class QSPV_Schema {
 

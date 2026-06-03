@@ -12,7 +12,7 @@
  * bumped and the readme will list any important changes.
  *
  * @package QuickShipD_Product_Video
- * @version 1.0.0
+ * @version 1.0
  *
  * Available variables:
  * @var string $video_type    One of 'youtube', 'vimeo', 'selfhost'.
