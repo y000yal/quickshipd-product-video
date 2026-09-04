@@ -11,11 +11,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-<<<<<<< Updated upstream
-Add YouTube, Vimeo & self-hosted MP4/WebM videos to WooCommerce product galleries. VideoObject SEO, variations, custom thumbnails & play tracking.
-=======
 WooCommerce product video gallery plugin: add YouTube, Vimeo, and self-hosted MP4/WebM videos to your product gallery with VideoObject SEO schema, variation videos, custom thumbnails, gallery ordering, and play tracking.
->>>>>>> Stashed changes
 
 == Description ==
 
