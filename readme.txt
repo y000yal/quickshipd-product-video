@@ -1,4 +1,5 @@
-=== QuickShipD Product Video — YouTube, Vimeo & Self-Hosted WooCommerce Gallery Videos, SEO Schema, Variations, Thumbnails & Play Tracking ===
+=== QuickShipD Product Video - YouTube, Vimeo & Self-Hosted Product Video Gallery for WooCommerce ===
+
 Contributors: quickshipd
 Tags: woocommerce, product video, youtube, vimeo, video gallery
 Requires at least: 6.4
@@ -10,33 +11,40 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
+<<<<<<< Updated upstream
 Add YouTube, Vimeo & self-hosted MP4/WebM videos to WooCommerce product galleries. VideoObject SEO, variations, custom thumbnails & play tracking.
+=======
+WooCommerce product video gallery plugin: add YouTube, Vimeo, and self-hosted MP4/WebM videos to your product gallery with VideoObject SEO schema, variation videos, custom thumbnails, gallery ordering, and play tracking.
+>>>>>>> Stashed changes
 
 == Description ==
 
-**QuickShipD Product Video** is a WooCommerce product video plugin that embeds **YouTube**, **Vimeo**, and **self-hosted** videos directly in your **product gallery** — alongside product images, never replacing them.
+[QuickShipD Product Video](https://quickshipd.com/product-video/) is a lightweight WooCommerce **product video gallery** plugin that lets you add **YouTube**, **Vimeo**, and **self-hosted** videos directly to your **WooCommerce gallery** - alongside product images, never replacing them.
 
-Paste a video URL or upload MP4, MOV, or WebM from the Media Library. Shoppers see a gallery slide with thumbnail and play button. Supports the classic WooCommerce gallery and the **Product Gallery Block**.
+Paste a video URL or upload MP4, MOV, or WebM from the Media Library. Shoppers see a gallery slide with thumbnail and play button.
 
-Ideal for stores that want **product page videos**, **video SEO** in Google, and per-product analytics without slowing down the rest of the site.
+Create a **WooCommerce video gallery** that combines product images and videos in one familiar shopping experience. The plugin supports both the classic WooCommerce gallery and the **Product Gallery Block**.
+
+Ideal for stores that want **product videos**, **product page videos**, **video SEO** in Google, and per-product analytics without slowing down the rest of the site.
 
 = Features =
 
-* **YouTube + Vimeo embedding** — paste a URL, video appears in the WooCommerce gallery
-* **Self-hosted video** — upload MP4, MOV, or WebM from the WordPress Media Library
-* **Gallery integration** — product video slide next to product images
-* **Gallery ordering** — place video before the featured image, after it, or after all images
-* **WooCommerce Block gallery** — works with the Product Gallery Block (WooCommerce 8.2+)
-* **VideoObject SEO schema** — JSON-LD structured data for Google video rich results
-* **Play tracking** — count how many times each product video is played
-* **Variation videos** — different video URL per product variation; gallery updates on selection
-* **Custom video thumbnail** — override the default thumbnail from the Media Library
-* **Playback controls** — autoplay, mute, loop, and player controls (site-wide and per product)
-* **HPOS compatible** — WooCommerce High-Performance Order Storage
+* **Product video gallery** - add videos alongside your existing WooCommerce product images
+* **YouTube + Vimeo embedding** - paste a URL and the video appears in the WooCommerce gallery
+* **Self-hosted video** - upload MP4, MOV, or WebM from the WordPress Media Library
+* **WooCommerce video gallery** - display product images and videos together in the WooCommerce product gallery
+* **Gallery ordering** - place video before the featured image, after it, or after all images
+* **WooCommerce Block gallery** - works with the Product Gallery Block (WooCommerce 8.2+)
+* **VideoObject SEO schema** - JSON-LD structured data for Google video rich results
+* **Play tracking** - count how many times each product video is played
+* **Variation videos** - different video URL per product variation; gallery updates on selection
+* **Custom video thumbnail** - override the default thumbnail from the Media Library
+* **Playback controls** - autoplay, mute, loop, and player controls (site-wide and per product)
+* **HPOS compatible** - WooCommerce High-Performance Order Storage
 
 = Performance =
 
-Assets load only on single product pages that have a video. Lightweight CSS and JavaScript (under 2 KB). YouTube and Vimeo player scripts load only after the visitor clicks play — fast product pages and better Core Web Vitals.
+Assets load only on single product pages that have a video. Lightweight CSS and JavaScript (under 2 KB). YouTube and Vimeo player scripts load only after the visitor clicks play - fast product pages and better Core Web Vitals.
 
 = VideoObject SEO Schema =
 
@@ -44,7 +52,7 @@ Automatic **schema.org VideoObject** JSON-LD on product pages with videos. Helps
 
 = By QuickShipD =
 
-From the team behind [QuickShipD](https://wordpress.org/plugins/quickshipd/) — estimated delivery dates for WooCommerce.
+From the team behind [QuickShipD](https://wordpress.org/plugins/quickshipd/) - estimated delivery dates for WooCommerce.
 
 == Installation ==
 
@@ -54,13 +62,25 @@ From the team behind [QuickShipD](https://wordpress.org/plugins/quickshipd/) —
 
 = Settings =
 
-**WooCommerce → Product Video** — configure autoplay, mute, loop, VideoObject schema, and play tracking globally.
+**WooCommerce → Product Video** - configure autoplay, mute, loop, VideoObject schema, and play tracking globally.
 
 == Frequently Asked Questions ==
 
 = What video sources are supported? =
 
 **YouTube**, **Vimeo**, and **self-hosted** files (MP4, MOV, WebM, OGG) from your Media Library.
+
+= What is a product video gallery? =
+
+A **product video gallery** lets you display product videos alongside your existing product images. QuickShipD Product Video adds each video as an additional gallery slide in WooCommerce.
+
+= Can I add YouTube videos to my WooCommerce products? =
+
+Yes. Paste a YouTube video URL into the Product Video settings and it will be added to your **WooCommerce video gallery**.
+
+= Can I add Vimeo videos? =
+
+Yes. Vimeo videos can be added alongside YouTube and self-hosted videos.
 
 = Does the video replace my product images? =
 
@@ -72,7 +92,7 @@ Yes, with any theme using the standard WooCommerce product gallery. Tested with 
 
 = Does it work with the WooCommerce Product Gallery Block? =
 
-Yes — classic gallery and **Product Gallery Block** are both supported.
+Yes - classic gallery and **Product Gallery Block** are both supported.
 
 = What is VideoObject SEO schema? =
 
@@ -81,6 +101,14 @@ Structured data that tells Google your product page includes a video. Generated 
 = Can I show different videos per product variation? =
 
 Yes. Each variation has its own video URL. When the customer selects a variation, the gallery video and thumbnail update.
+
+= Can I use self-hosted product videos? =
+
+Yes. You can upload MP4, MOV, WebM, or OGG videos from your WordPress Media Library and display them in your **product video gallery**.
+
+= Can I track product video plays? =
+
+Yes. Play tracking can count how many times each product video is played.
 
 = How do I override the video gallery template? =
 
@@ -111,13 +139,14 @@ Self-hosted video files (MP4, WebM, etc.) uploaded to your own Media Library are
 == Screenshots ==
 
 1. Product page with video in the gallery alongside product images
-2. Product Video Settings — the Product Video playback settings
-3. Product Video Settings — features section
+2. Product Video Settings - the Product Video playback settings
+3. Product Video Settings - features section
 4. Individual product settings.
 
 == Changelog ==
 
-= 1.0  - 03/06/2026 =
+= 1.0 - 03/06/2026 =
+
 * Initial release
 * YouTube, Vimeo, and self-hosted product videos in the WooCommerce gallery
 * Video Thumbnail picker for self-hosted videos
@@ -129,4 +158,5 @@ Self-hosted video files (MP4, WebM, etc.) uploaded to your own Media Library are
 == Upgrade Notice ==
 
 = 1.0 =
+
 Initial release.
